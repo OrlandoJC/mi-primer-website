@@ -1,0 +1,375 @@
+html, body{
+	height: 100%;
+
+	
+}
+
+
+h1{
+	margin: 0;
+}
+
+/* menu */
+.menu-container{
+	top: .7em; 
+	width: 100%;
+	height: 60px;
+    
+	
+}
+
+
+.menu li{
+	padding: 10px 60px;
+	margin: 10px 40px;
+	list-style: none;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	margin: 0 .6em;
+	transition: all 2s;	
+}
+
+.menu li a:hover{
+   border-bottom: 1px solid white;
+	
+}
+
+.menu-logo-container strong{
+	display: inline-block;
+	margin: 0px 100px;
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+}
+
+
+/*banner*/
+
+.banner{
+	background-image: url(../img/laptop.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	bottom: 0px;
+
+
+background: #00c6ff; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+
+
+.texto-banner h1{
+	font-size: 3.7em;
+}
+
+/*main*/
+
+.negocios{
+
+	/* ckground-color: #3498db; */
+
+}
+
+.height{
+    height: 500px;
+}
+
+.container-negocios{
+	/*background-color: red;*/
+    padding-bottom: 6em;
+   
+}
+.title-negocios{
+	padding: 1em 2em;
+	
+}
+
+.text-negocios{
+    margin-bottom: 4em;
+}
+.negocios-txt{
+	top:12px;
+
+}
+
+
+.container-item{
+    margin-top: 20px;
+   
+}
+.container-item img{
+    width: 60%;
+    ;
+    vertical-align: top;
+}
+
+.features{
+    background-color: dodgerblue;
+    
+    
+}
+
+.img-features{
+    width: 100%;
+    right: 0px;
+}
+
+.img-large-features{
+     padding: 0;   
+}
+
+
+.text-features{
+    margin: 2em 2em;
+}
+
+
+.text-features p{
+    padding-top: .3em;
+}
+
+.conecta   {
+    padding-top:2em;
+    background-color: #1BBC9B;
+}
+
+
+.proximo{
+   
+    overflow: hidden
+}
+
+.container-proximo{
+    margin: 0 auto;
+    padding-top:50px;
+    padding-bottom: 80px;
+    width:80%;
+    font-size: 1.5em;
+}
+
+/*posociona textos en donde estan las imagens grande*/
+    .posiciona-contenido{
+        font-size: 1.5em;
+        padding: 100px 30px;
+    }
+
+.posiciona-contenido2{
+        font-size: 1.5em;
+        padding: 80px 30px;
+    }
+
+.negro-a{
+    background-color: #2C3E50;
+}
+
+
+.btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: .4em;
+    padding: 1rem;
+    transition: 1s;
+}
+
+.btn:hover{
+    color: #000;
+    background-color:#fff;
+}
+
+.negro-a-fuerte{
+    background-color: #233140;
+}
+
+.container-logo-footer img{
+        width: 20%;
+    height: 20%;
+
+}
+
+.footer-proyecto{
+     height: 90px;   
+}
+
+
+/*helper clases*/
+
+
+.full-width{
+	width: 100%;
+}
+.hidden{
+    overflow: hidden;
+}
+.mw{
+	/*width: calc(100%-60px);*/
+	max-width: 1520px;
+}
+
+
+.center{
+	text-align: center;
+}
+.block{
+	display: block;
+}
+
+.inline-block{
+ display: inline-block;
+}
+
+.right{
+	float: right;
+}
+
+/* tipografia */
+
+.white{
+	color: white;
+}
+
+
+.brown {
+	color: #7f8c8d;
+}
+
+.sans{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+/*    */
+
+
+.absolute{
+	position: absolute;
+}
+
+.full-height{
+	height: 100%;
+     
+}
+.up{
+  z-index: 10;
+}
+
+.texto-banner{
+	font-size: 1.3em;
+}
+
+.row{
+	margin: 0;
+}
+.relative{
+	position: relative;
+}
+
+
+/* fonts */
+.monse{
+	font-family: 'Montserrat', sans-serif;
+
+}
+p{
+   font-weight: lighter;
+}
+.li{
+	font-size: 18px;
+}
+.line-h{
+    line-height:  2em;
+}
+
+.m-auto{
+	margin: 0 auto;
+}
+
+.center{
+	text-align: center;
+}
+
+.light{
+     font-weight: lighter;
+}
+/*colores fondo*/
+
+.azul-b{
+ background-color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+/*media queries*/
+
+
+@media screen and (min-width: 768px) and (max-width:1320px){
+    .mw{
+        max-width: 1000px;
+    }
+    .texto-banner h1{
+	font-size: 2.3em;
+}
+    
+    
+}
+
+@media screen and (min-width: 480px) and (max-width:768px){
+    .mw{
+        max-width: 380px;
+    }
+    .texto-banner h1{
+	font-size: 1em;
+}
+    .menu{
+	display: none;
+    
+	
+}
+
+    
+    
+}
+
+
+
+@media screen and (max-width:768px){
+    .mw{
+        max-width: 720px;
+    }
+    
+    .texto-banner h1{
+	    font-size: 2.3em;
+    }
+    
+    .menu{
+	display: none;
+    }
+    
+    .posiciona-contenido{
+        text-align: center;
+        font-size: 1em;
+        padding: 20px 10px;
+    }
+
+    
+    .posiciona-contenido2{
+        text-align: center;
+        font-size: 1em;
+        padding: 20px 10px;
+    }
+    
+    .menu-logo-container strong{
+	    margin: 0px 20px;
+    }
+}
+
+
